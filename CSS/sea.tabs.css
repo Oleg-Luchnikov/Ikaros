@@ -1,0 +1,22 @@
+﻿
+/* sea.tabs
+// css version 1.0.0
+// © Oleg Morev, 2015    
+// https://github.com/DpOLEGapx/ 
+//
+// ===================================================================================================================*/
+
+.seaTabs * { box-sizing: border-box; }
+
+.seaTabs_switch { overflow: hidden; }
+
+.seaTabs_tab {
+  float: left;
+  cursor: pointer;
+}
+
+.seaTabs_switch_active { cursor: default; }
+
+.seaTabs_item { display: none; }
+
+.seaTabs_content_active { display: block; }
